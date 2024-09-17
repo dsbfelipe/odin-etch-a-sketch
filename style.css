@@ -9,9 +9,39 @@ body {
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  gap: 32px;
-  padding-top: 40px;
+  gap: 80px;
   padding-bottom: 64px;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+}
+
+.p-1 {
+  position: absolute;
+  font-size: 360px;
+  top: 30%;
+  z-index: -1;
+  color: rgba(0, 0, 0, 0.85);;
+}
+
+.p-2 {
+  position: absolute;
+  font-size: 360px;
+  top: 10%;
+  z-index: -1;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.p-3 {
+  position: absolute;
+  font-size: 360px;
+  top:50%;
+  z-index: -1;
+  color: rgba(0, 0, 0, 0.1);
 }
 
 .square {
@@ -38,7 +68,16 @@ body {
 }
 
 button {
+  width: 30%;
+  height: 64px;
   padding: 12px 24px;
   background-color: white;
   box-shadow: -12px 12px 0px black;
+  justify-self: center;
+  align-self: center;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }

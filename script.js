@@ -28,7 +28,7 @@ button.addEventListener("click", () => {
   const base = window.prompt("Set the width in squares");
   if (base > 100) {
     alert("Please insert a value lower or equal to 100");
-    base = window.prompt("Set the height in squares");
+    base = window.prompt("Set the width in squares");
   }
   console.log(base);
   clearContainer();
